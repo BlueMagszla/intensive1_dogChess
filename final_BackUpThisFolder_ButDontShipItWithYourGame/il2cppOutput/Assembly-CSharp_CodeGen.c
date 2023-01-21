@@ -12,6 +12,9 @@
 
 
 
+extern void ARTapToPlace_Awake_mE71E74CEEAD0549766EAD160FF28F37987FFBF5A (void);
+extern void ARTapToPlace_Update_m0FDBA559D7ABA80E790C317924E9B25FFD724D05 (void);
+extern void ARTapToPlace__ctor_mDD8E97029B4DDB0187EDA173CA4879148DE758CE (void);
 extern void TranslateGeometry_Awake_m2CA9BC93B8364C9E3DF29887E24C7D0944DF7AE2 (void);
 extern void TranslateGeometry_OnValueChanged_mE56683F776355532EA9912FE2E5DDCD40FBEEDB5 (void);
 extern void TranslateGeometry__ctor_m291283DA4D64D0C82325FB06EF929463C621A5C0 (void);
@@ -804,8 +807,11 @@ extern void Tooltip__ctor_m982E3B2C2374BF433256BECDA293323936393E85 (void);
 extern void XROriginExtensions_MakeContentAppearAt_m27AB0690F711FD893A4396B5B330A448F1C99C0A (void);
 extern void XROriginExtensions_MakeContentAppearAt_mC32C4633CD78838E0B04967D22757BBB7902CF4C (void);
 extern void XROriginExtensions_MakeContentAppearAt_m37DFC178F9060F19DCCBAB1E40BEA36C29301DE0 (void);
-static Il2CppMethodPointer s_methodPointers[804] = 
+static Il2CppMethodPointer s_methodPointers[807] = 
 {
+	ARTapToPlace_Awake_mE71E74CEEAD0549766EAD160FF28F37987FFBF5A,
+	ARTapToPlace_Update_m0FDBA559D7ABA80E790C317924E9B25FFD724D05,
+	ARTapToPlace__ctor_mDD8E97029B4DDB0187EDA173CA4879148DE758CE,
 	TranslateGeometry_Awake_m2CA9BC93B8364C9E3DF29887E24C7D0944DF7AE2,
 	TranslateGeometry_OnValueChanged_mE56683F776355532EA9912FE2E5DDCD40FBEEDB5,
 	TranslateGeometry__ctor_m291283DA4D64D0C82325FB06EF929463C621A5C0,
@@ -1617,13 +1623,16 @@ extern void ThermalStateChange__ctor_mBE6D0BD86B9E84BA65DECFA08E5C1F28E1DABB6B_A
 extern void NamedPrefab__ctor_mE953E03F91A0AD30A2AC6B24022BAB1DDD627B38_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[4] = 
 {
-	{ 0x06000084, ThermalStateChange_get_previousThermalState_m19E75189B416E288F0818A9A007A7CFDFA94DFC4_AdjustorThunk },
-	{ 0x06000085, ThermalStateChange_get_currentThermalState_mE1A1FFF2945DB5ADAAB05D8F3B92DAE9A497204C_AdjustorThunk },
-	{ 0x06000086, ThermalStateChange__ctor_mBE6D0BD86B9E84BA65DECFA08E5C1F28E1DABB6B_AdjustorThunk },
-	{ 0x060000FA, NamedPrefab__ctor_mE953E03F91A0AD30A2AC6B24022BAB1DDD627B38_AdjustorThunk },
+	{ 0x06000087, ThermalStateChange_get_previousThermalState_m19E75189B416E288F0818A9A007A7CFDFA94DFC4_AdjustorThunk },
+	{ 0x06000088, ThermalStateChange_get_currentThermalState_mE1A1FFF2945DB5ADAAB05D8F3B92DAE9A497204C_AdjustorThunk },
+	{ 0x06000089, ThermalStateChange__ctor_mBE6D0BD86B9E84BA65DECFA08E5C1F28E1DABB6B_AdjustorThunk },
+	{ 0x060000FD, NamedPrefab__ctor_mE953E03F91A0AD30A2AC6B24022BAB1DDD627B38_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[804] = 
+static const int32_t s_InvokerIndices[807] = 
 {
+	7044,
+	7044,
+	7044,
 	7044,
 	5516,
 	7044,
@@ -2431,11 +2440,11 @@ static const int32_t s_InvokerIndices[804] =
 };
 static const Il2CppTokenRangePair s_rgctxIndices[5] = 
 {
-	{ 0x02000063, { 13, 6 } },
-	{ 0x02000064, { 19, 8 } },
-	{ 0x060000AA, { 0, 3 } },
-	{ 0x06000160, { 3, 5 } },
-	{ 0x0600021A, { 8, 5 } },
+	{ 0x02000064, { 13, 6 } },
+	{ 0x02000065, { 19, 8 } },
+	{ 0x060000AD, { 0, 3 } },
+	{ 0x06000163, { 3, 5 } },
+	{ 0x0600021D, { 8, 5 } },
 };
 extern const uint32_t g_rgctx_TU26_t93E2546DDFE075AD59B1F7FD50E6FA0CD3D71F31;
 extern const uint32_t g_rgctx_T_tE96AB314938121976416BF95F7EC1705E11EB05D;
@@ -2498,7 +2507,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	804,
+	807,
 	s_methodPointers,
 	4,
 	s_adjustorThunks,

@@ -769,13 +769,17 @@
           },
           {
             "name": "Collider",
-            "scenes": [],
-            "dependencyType": 1,
+            "scenes": [
+              "Assets/MAIN_GAME/gameScene.unity"
+            ],
+            "dependencyType": 0,
             "icon": null
           },
           {
             "name": "MeshCollider",
-            "scenes": [],
+            "scenes": [
+              "Assets/MAIN_GAME/gameScene.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
